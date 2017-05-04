@@ -1,0 +1,27 @@
+﻿  com_rest2_jni_ActiveDispatcher.cpp
+  TransactionManagerImpl.cpp
+  TransactionManager.cpp
+  DBDriver.cpp
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
+  e:\install\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
+  e:\install\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
+  e:\install\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\program files\mysql\connector.c++ 1.1\include\mysql_connection.h(175): warning C4251: 'sql::mysql::MySQL_Connection::proxy': class 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Connection'
+  c:\program files\mysql\connector.c++ 1.1\include\mysql_connection.h(175): note: see declaration of 'boost::shared_ptr<sql::mysql::NativeAPI::NativeConnectionWrapper>'
+c:\program files\mysql\connector.c++ 1.1\include\mysql_connection.h(179): warning C4251: 'sql::mysql::MySQL_Connection::service': class 'boost::scoped_ptr<sql::mysql::MySQL_Statement>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Connection'
+  c:\program files\mysql\connector.c++ 1.1\include\mysql_connection.h(179): note: see declaration of 'boost::scoped_ptr<sql::mysql::MySQL_Statement>'
+c:\program files\mysql\connector.c++ 1.1\include\mysql_connection.h(181): warning C4251: 'sql::mysql::MySQL_Connection::intern': class 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>' needs to have dll-interface to be used by clients of class 'sql::mysql::MySQL_Connection'
+  c:\program files\mysql\connector.c++ 1.1\include\mysql_connection.h(181): note: see declaration of 'boost::scoped_ptr<sql::mysql::MySQL_ConnectionData>'
+d:\projects\testdb\testdb\dbdriver.cpp(204): warning C4101: 'pstatement': unreferenced local variable
+d:\projects\testdb\testdb\dbdriver.cpp(203): warning C4101: 'pconnection': unreferenced local variable
+d:\projects\testdb\testdb\dbdriver.cpp(209): warning C4101: 'e': unreferenced local variable
+d:\projects\testdb\testdb\dbdriver.cpp(433): warning C4101: 'collection': unreferenced local variable
+d:\projects\testdb\testdb\dbdriver.cpp(435): warning C4101: 'doc': unreferenced local variable
+d:\projects\testdb\testdb\dbdriver.cpp(437): warning C4101: 'str': unreferenced local variable
+d:\projects\testdb\testdb\dbdriver.cpp(436): warning C4101: 'query': unreferenced local variable
+d:\projects\testdb\testdb\dbdriver.cpp(434): warning C4101: 'cursor': unreferenced local variable
+  Generating Code...
+  TestDB.vcxproj -> D:\Projects\TestDB\x64\Debug\TestDB.dll
+  TestDB.vcxproj -> D:\Projects\TestDB\x64\Debug\TestDB.pdb (Partial PDB)
